@@ -1,6 +1,7 @@
 'use client'; 
 import { Button } from '@mantine/core';
-import { atom, useAtom } from 'jotai';
+import { atom, useAtom } from 'jotai'; 
+
 
 const buttonClickedAtom = atom(false);
 
